@@ -1,4 +1,4 @@
-# Band Name Generator
+# Band Name Generator 🎸
 
 The **Band Name Generator** is a fun, interactive web application that generates random band names by combining an adjective and a noun. It uses **Node.js**, **Express**, and **EJS** for dynamic content rendering.
 
@@ -28,3 +28,24 @@ The **Band Name Generator** is a fun, interactive web application that generates
    ```bash
    git clone https://github.com/your-username/band-name-generator.git
    cd band-name-generator
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create the necessary file structure:
+   - Place your CSS files in the `public` folder.
+   - Use the provided `partials` folder for header and footer EJS templates.
+
+4. Start the server:
+   ```bash
+   node index.js
+   ```
+
+5. Open your browser and navigate to:
+   ```bash
+   http://localhost:3000
+   ```
+
