@@ -49,3 +49,26 @@ The **Band Name Generator** is a fun, interactive web application that generates
    http://localhost:3000
    ```
 
+## File structure
+
+```bash
+project/
+│
+├── index.js            # Main application logic
+├── views/
+│   ├── index.ejs       # Main EJS template
+│   ├── partials/
+│       ├── header.ejs  # Header partial template
+│       ├── footer.ejs  # Footer partial template
+├── public/
+│   └── styles/
+│       └── main.css    # Static CSS file
+├── package.json        # Project metadata and dependencies
+```
+
+## How It Works
+
+1. The home page (`index.ejs`) displays a default welcome message.
+2. When the "Generate Name" button is clicked, the form submission triggers a `POST` request to `/submit`.
+3. The server randomly selects an adjective and a noun from predefined arrays and renders the `index.ejs` template with these values.
+4. The generated band name is displayed dynamically on the page.
