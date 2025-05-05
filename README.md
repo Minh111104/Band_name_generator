@@ -72,3 +72,8 @@ project/
 2. When the "Generate Name" button is clicked, the form submission triggers a `POST` request to `/submit`.
 3. The server randomly selects an adjective and a noun from predefined arrays and renders the `index.ejs` template with these values.
 4. The generated band name is displayed dynamically on the page.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
